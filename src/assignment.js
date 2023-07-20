@@ -63,7 +63,7 @@ export default Person
         <li key={index}>{item}</li>
       ))}
     </ul>
-    </>
+    </> 
   )
  }
 
