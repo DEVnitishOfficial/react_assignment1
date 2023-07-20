@@ -1,0 +1,51 @@
+.person-name,.click-btn{
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+    font-weight: 900;
+  }
+  .person-name, .click-btn {
+    animation: glowing 3s linear infinite;
+  }
+  
+  @keyframes glowing {
+    0% {
+      text-shadow: 0 0 5px hsl(8, 100%, 50%);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(4, 248, 81, 0.9);
+    }
+    100% {
+      text-shadow: 0 0 5px hsla(178, 93%, 50%, 0.993);
+    }
+  }
+
+  .btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(25, 204, 82);
+    margin-left: 40%;
+    border-radius: 20px;
+    border: none;
+  }
+  .btn:hover{
+    background-color: aqua;
+  }
+
+  .centre{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  ul{
+    margin-left: 45%;
+  }
+  span{
+    background-color: yellow;
+    font-size: 20px;
+    color: blueviolet;
+  }
+ 
+  
